@@ -1,0 +1,24 @@
+{
+  "name": "secure-websocket-server",
+  "version": "1.0.0",
+  "description": "Simple secure WebSocket server using Let's Encrypt, Express.js and Socket.IO",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jiajun86/SecureWebSocket/"
+  },
+  "author": {
+    "name": "Yan Jia Jun",
+    "email": "jiajun86@hotmail.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.0",
+    "letsencrypt-express": "^2.0.5",
+    "redirect-https": "^1.1.0",
+    "socket.io": "^1.5.1"
+  }
+}
